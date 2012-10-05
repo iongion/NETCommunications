@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="AMFByteStream.c" open="1" top="1" tabpos="4">
+		<Cursor position="19525" topLine="511" />
+	</File>
+	<File name="AMFByteStream.h" open="1" top="0" tabpos="3">
+		<Cursor position="5364" topLine="68" />
+	</File>
+	<File name="AMFRemoting.c" open="0" top="0" tabpos="5">
+		<Cursor position="27" topLine="0" />
+	</File>
+	<File name="amfext.c" open="1" top="0" tabpos="2">
+		<Cursor position="98" topLine="0" />
+	</File>
+	<File name="amfext.h" open="1" top="0" tabpos="1">
+		<Cursor position="2584" topLine="75" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,55 @@
+import os, sys
+
+sources = Glob('*.c')
+
+env = Environment(
+  CCFLAGS = [
+    '-Wall',
+    '-std=c99',
+    #'-pedantic',
+    #'-fpic',
+    '-O3',
+    '-I.',
+    '-I./common/include',
+    '-I./../',
+    '-I./../../common/include',
+  ], 
+  CPPDEFINES = {
+  },
+  CPPPATH = [
+  ],
+  LIBPATH = [
+    '-L.',
+    '-L../../../liblog',
+  ],
+  LIBS = [
+    'liblog', 
+    #'libiconv', 
+  ]
+)
+config = Configure(env)
+
+if env['PLATFORM'] == 'cygwin':
+    env.Append (
+      LINKFLAGS = [
+        '-Wl,-subsystem,windows',
+      ],
+      LIBS = [
+      ],
+    )
+
+if env ['PLATFORM'] == 'win32':
+    env.Tool('mingw')
+    env.Append (
+      LINKFLAGS = [
+        '-Wl,-subsystem,windows',
+      ],
+      LIBS = [
+        '-lmingw32',
+      ],
+    )
+
+env = config.Finish()
+
+#env.SharedLibrary(target = "libamfext", source = sources)
+env.StaticLibrary(target = "libamfext", source = sources)

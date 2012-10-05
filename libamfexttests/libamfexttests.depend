@@ -1,0 +1,63 @@
+# depslib dependency file v1.0
+1349009117 source:d:\projects\FlashCommunications\libamfexttests\main.c
+	<libamfext/amfext.h>
+	<libamfext/AMFByteStream.h>
+	<libamfext/AMFRemoting.h>
+
+1349008963 d:\projects\FlashCommunications\\libamfext\amfext.h
+	<assert.h>
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<inttypes.h>
+	<errno.h>
+	<locale.h>
+	<time.h>
+	<mbstring.h>
+	<liblog/log.h>
+
+1348932307 d:\projects\FlashCommunications\\liblog\log.h
+	<stdio.h>
+	<stdarg.h>
+	<stdint.h>
+
+1349009035 d:\projects\FlashCommunications\\libamfext\amfbytestream.h
+	"amfext.h"
+
+1348999177 d:\projects\FlashCommunications\\libamfext\amfremoting.h
+	"amfext.h"
+	"AMFByteStream.h"
+
+1349298198 source:d:\projects\flashcommunications\libamfexttests\main.c
+	<libamfext/amfext.h>
+	<libamfext/AMFByteStream.h>
+	<libamfext/AMFRemoting.h>
+
+1349248371 d:\projects\flashcommunications\\libamfext\amfext.h
+	<assert.h>
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<inttypes.h>
+	<errno.h>
+	<locale.h>
+	<time.h>
+	<mbstring.h>
+	<liblog/log.h>
+
+1348932307 d:\projects\flashcommunications\\liblog\log.h
+	<stdio.h>
+	<stdarg.h>
+	<stdint.h>
+
+1349297587 d:\projects\flashcommunications\\libamfext\amfbytestream.h
+	"amfext.h"
+
+1348999177 d:\projects\flashcommunications\\libamfext\amfremoting.h
+	"amfext.h"
+	"AMFByteStream.h"
+
